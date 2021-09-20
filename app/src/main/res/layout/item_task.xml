@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5sp"
+    android:layout_marginRight="10sp"
+    android:layout_marginBottom="5dp"
+    android:elevation="4dp"
+    app:cardCornerRadius="20dp"
+    tools:targetApi="lollipop">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/ivIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="@null"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:id="@+id/textViewTitleItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/checkPriority"
+            android:layout_toRightOf="@+id/ivIcon"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="title"
+            android:textColor="@color/purple"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textViewContentItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewTitleItem"
+            android:layout_toLeftOf="@+id/checkPriority"
+            android:layout_toRightOf="@+id/ivIcon"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="content"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/checkPriority"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_priority" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

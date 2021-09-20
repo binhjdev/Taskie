@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Taskie</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="register">Register</string>
+    <string name="user_name">Username</string>
+    <string name="profile">Profile</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="already_account">Already account?</string>
+    <string name="add_new">Add New</string>
+    <string name="task">Task</string>
+    <string name="add_now"> + Add Now</string>
+    <string name="low">Low</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="no">No</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="priority">Task Priority</string>
+    <string name="new_task_added">New Task Added!</string>
+    <string name="add_another_task"> + Add Another Task</string>
+    <string name="deleted_confirm">Do you want deleted this task ?</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="title">e.g Title</string>
+    <string name="content">e.g Content</string>
+</resources>
