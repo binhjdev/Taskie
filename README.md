@@ -23,3 +23,7 @@ Application connects to Taskie Rest API to get response data
 * Android Architecture Components (ViewModel classes)
 * Kotlin coroutines - to manage threads gracefully
 * Kotlin View Binding - to ease connection with XML code
+
+## Trying:
+
+  [Debug apk](https://github.com/binhjdev/Taskie/raw/master/outputs/app-debug.apk)
